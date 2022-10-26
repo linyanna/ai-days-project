@@ -24,7 +24,7 @@ function App() {
       <Clients/>
       <Contact/>
       <Footer/>
-      <Template/>
+      {/* <Template/> */}
     </Router>
   );
 }
