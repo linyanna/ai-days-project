@@ -3,13 +3,19 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Template from './components/template';
 import Masthead from './components/Masthead';
+import About from './components/About';
+import Team from './components/Team';
 import { BrowserRouter as Router } from 'react-router-dom'
+import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
       <Navbar/>
       <Masthead/>
+      <About/>
+      <Team/>
+      <Footer/>
       <Template/>
     </Router>
   );
