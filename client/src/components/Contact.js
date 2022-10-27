@@ -1,9 +1,11 @@
 import React from 'react'
+import Footer from './Footer'
 
 const Contact = () => {
   return (
-    <div>  <section className="page-section" id="contact">
-    <div className="container">
+    <div>
+    <section className="page-section" id="contact">
+    <div className="container" style={{padding: '3rem'}}>
       <div className="text-center">
         <h2 className="section-heading text-uppercase">Contact Us</h2>
         <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
@@ -61,10 +63,11 @@ const Contact = () => {
         {/* an error submitting the form*/}
         <div className="d-none" id="submitErrorMessage"><div className="text-center text-danger mb-3">Error sending message!</div></div>
         {/* Submit Button*/}
-        <div className="text-center"><button className="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-      </form>
+        <div className="text-center"><button className="btn btn-primary btn-xl text-uppercase"  id="submitButton" type="submit" onClick={()=> {alert('Thank you for reaching out to us!'); window.location.reload()}}>Send Message</button></div>      </form>
     </div>
-  </section></div>
+    <Footer/>
+  </section>
+</div>
   )
 }
 

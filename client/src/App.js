@@ -21,10 +21,10 @@ function App() {
       <Protfolio/>
       <About/>
       <Team/>
-      <Clients/>
+      {/* <Clients/> */}
       <Contact/>
-      <Footer/>
-      <Template/>
+      {/* <Footer/> */}
+      {/* <Template/> */}
     </Router>
   );
 }
