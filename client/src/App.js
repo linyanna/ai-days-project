@@ -23,7 +23,7 @@ function App() {
       <Team/>
       <Clients/>
       <Contact/>
-      <Footer/>
+      {/* <Footer/> */}
       {/* <Template/> */}
     </Router>
   );
