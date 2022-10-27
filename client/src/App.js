@@ -11,7 +11,7 @@ import Clients from './components/Clients';
 import Contact from './components/Contact';
 import { BrowserRouter as Router } from 'react-router-dom'
 import Footer from './components/Footer';
-
+import Map from './Map.js'
 function App() {
   return (
     <Router>
@@ -23,6 +23,7 @@ function App() {
       <Team/>
       {/* <Clients/> */}
       <Contact/>
+      <Map/>
       {/* <Footer/> */}
       {/* <Template/> */}
     </Router>
