@@ -19,12 +19,12 @@ function App() {
       <Navbar/>
       <Masthead/>    
       <Services/>
+      <Map/>
       <Protfolio/>
       <About/>
+      <Clients/>
       <Team/>
-    <Contact/>
-    <Footer/>
-      <Map/>
+      <Contact/>
     </Router>
   );
 }
