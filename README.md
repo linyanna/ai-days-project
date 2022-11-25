@@ -1,5 +1,5 @@
 # ai-days-project
-Hackathon project!
+AI project - to be continued
 
 ## Setup client
 - `cd client`
